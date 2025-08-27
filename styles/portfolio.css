@@ -20,7 +20,12 @@
   .text-primary {
     color: #FD6E0A;
   }
-
+.text-center{
+    text-align: center;
+  }
+  .dark-1{
+    color: #181818;
+}
   .dark-2{
     color: #474747;
   }
@@ -106,13 +111,16 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 
 /* About Section */
 .about{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 .section-description{
   margin-top: 30px;
@@ -125,3 +133,13 @@ main{
 .item-description{
   font-weight: 600;
 }
+/* skills section styles */
+.skils-container{
+  display: flex;
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  }
