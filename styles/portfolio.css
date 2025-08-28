@@ -181,3 +181,6 @@ main section{
   .experience-description, .experience-sub-title{
     color: #757575;
   }
+  .resume-btn-container{
+    margin-top: 50px;
+  }
