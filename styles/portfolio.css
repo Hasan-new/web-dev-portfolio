@@ -184,21 +184,27 @@ main section{
   .resume-btn-container{
     margin-top: 50px;
   }
+  /* Footer styles */
   footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
   }
-  .footer-column{
+  .foloter-column{
     width: 50%;
   }
-  footer input[type="text"], footer input[type="email"]{
-    height: 50px;
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64pxpx;
     border-radius: 5px;
     background-color: white;
     display: block;
     width: 100%;
-    margin-bottom: 24px;
     padding: 10px 20px;
+    margin-bottom: 24px;
     border: none;
+  }
+  .footer-description{
+    font-size: 16px;
+    font-weight: regular;
+    color: #757575;
   }
